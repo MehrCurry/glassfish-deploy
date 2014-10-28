@@ -1,0 +1,19 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <name>Maven Default Project</name>
+  <groupId>docker</groupId>
+  <artifactId>download</artifactId>
+  <version>1</version>
+  <packaging>pom</packaging>
+  <repositories>
+    <repository>
+      <id>nexus-snapshots</id>
+      <name>Nexus Snapshots</name>
+      <layout>default</layout>
+      <url>http://docker:8081/content/repositories/snapshots/</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+</project>
